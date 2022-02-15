@@ -1,0 +1,15 @@
+{
+  "name": "domain-list-updater",
+  "version": "1.0.0",
+  "description": "updates phishing domains for discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js"
+  },
+  "author": "Michael van der Luit",
+  "license": "ISC",
+  "dependencies": {
+    "stop-discord-phishing": "^0.2.0"
+  }
+}
