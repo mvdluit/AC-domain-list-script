@@ -7,7 +7,7 @@ async function listPhishingDomains() {
     private: true,
     words: domains,
   };
-  fs.writeFileSync('scam-domains.json', JSON.stringify(fmt));
+  fs.writeFileSync('scam-domains.json', JSON.stringify(fmt, null, 4));
 }
 
 async function listSuspiciousDomains() {
@@ -17,7 +17,7 @@ async function listSuspiciousDomains() {
     private: true,
     words: domains,
   };
-  fs.writeFileSync('suspicious-domains.json', JSON.stringify(fmt));
+  fs.writeFileSync('suspicious-domains.json', JSON.stringify(fmt, null, 4));
 }
 
 listPhishingDomains();
