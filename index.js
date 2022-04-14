@@ -28,18 +28,6 @@ async function listPhishingDomains() {
   fs.writeFileSync('scam-domains.json', JSON.stringify(fmt, null, 4));
 }
 
-// async function listSuspiciousDomains() {
-//   let domains = await stopPhishing.listSuspicious();
-
-//   const checkedDomains = findAndReplace(domains);
-
-//   let fmt = {
-//     private: true,
-//     words: checkedDomains,
-//   };
-//   fs.writeFileSync('suspicious-domains.json', JSON.stringify(fmt, null, 4));
-// }
-
 function findAndReplace(domains) {
   for (const replacement of filteredWordreplacements) {
     if (domains.includes(replacement.word)) {
@@ -54,4 +42,3 @@ function findAndReplace(domains) {
 }
 
 listPhishingDomains();
-// listSuspiciousDomains();
