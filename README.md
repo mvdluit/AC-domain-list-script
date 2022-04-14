@@ -12,16 +12,10 @@ Fetches the latest lists from https://github.com/nikolaischunk/discord-phishing-
 
 _moderator role or above is required to perform these actions_
 
-There are currently two lists: `scams` which contain confirmed phishing domains and `suspicious-domain-list` which contain suspicious domains.
+There is currently one lists: `scams` which contains both confirmed phishing domains and suspicious domains.
 
 **scam domains**
 
 - Select `upload file`.
 - Pick `scam-domains.json`.
 - As accompanying text enter the update command: `g!wordlist update scams`.
-
-**suspicious domains**
-
-- Select `upload file`.
-- Pick `suspicious-domains.json`.
-- As accompanying text enter the update command: `g!wordlist update suspicious-domain-list`.
