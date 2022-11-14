@@ -38,16 +38,15 @@ async function listPhishingDomains() {
 }
 
 function findAndReplace(domains) {
+  let list = domains;
   for (const replacement of filteredWordreplacements) {
-    if (domains.includes(replacement.word)) {
-      let index = domains.indexOf(replacement.word);
-      domains.splice(index, 1);
-      domains.push(...replacement.replacement);
-      return domains.sort();
-    } else {
-      return domains;
+    if (list.includes(replacement.word)) {
+      let index = list.indexOf(replacement.word);
+      list.splice(index, 1);
+      list.push(...replacement.replacement);
     }
   }
+  return list.sort();
 }
 
 listPhishingDomains();
