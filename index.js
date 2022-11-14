@@ -20,6 +20,15 @@ const filteredWordreplacements = [
       'http://mmunity.com',
     ],
   },
+  {
+    word: 'steamcommmunity.co',
+    replacement: [
+      'https://steamcommmunity.co',
+      'http://steamcommmunity.co',
+      'https://steamcommmunity.co',
+      'http://steamcommmunity.co',
+    ],
+  },
 ];
 
 async function listPhishingDomains() {
