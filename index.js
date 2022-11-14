@@ -21,12 +21,12 @@ const filteredWordreplacements = [
     ],
   },
   {
-    word: 'steamcommmunity.co',
+    word: 'steamcommunity.co',
     replacement: [
-      'https://steamcommmunity.co',
-      'http://steamcommmunity.co',
-      'https://steamcommmunity.co',
-      'http://steamcommmunity.co',
+      'https://steamcommunity.co',
+      'http://steamcommunity.co',
+      'https://steamcommunity.co',
+      'http://steamcommunity.co',
     ],
   },
 ];
