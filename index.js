@@ -11,6 +11,15 @@ const filteredWordreplacements = [
       'http://www.witch.tv',
     ],
   },
+  {
+    word: 'mmunity.com',
+    replacement: [
+      'https://mmunity.com',
+      'http://mmunity.com',
+      'https://mmunity.com',
+      'http://mmunity.com',
+    ],
+  },
 ];
 
 async function listPhishingDomains() {
