@@ -29,6 +29,15 @@ const filteredWordreplacements = [
       'http://www.steamcommunity.co/',
     ],
   },
+  {
+    word: 'discordapp.co',
+    replacement: [
+      'https://discordapp.co/',
+      'http://discordapp.co/',
+      'https://www.discordapp.co/',
+      'http://www.discordapp.co/',
+    ],
+  },
 ];
 
 async function listPhishingDomains() {
