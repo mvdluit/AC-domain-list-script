@@ -38,6 +38,24 @@ const filteredWordreplacements = [
       'http://www.discordapp.co/',
     ],
   },
+  {
+    word: 'steampower.co',
+    replacement: [
+      'https://steampower.co/',
+      'http://steampower.co/',
+      'https://www.steampower.co/',
+      'http://www.steampower.co/',
+    ],
+  },
+  {
+    word: 'discord-app.co',
+    replacement: [
+      'https://discord-app.co/',
+      'http://discord-app.co/',
+      'https://www.discord-app.co/',
+      'http://www.discord-app.co/',
+    ],
+  },
 ];
 
 async function listPhishingDomains() {
