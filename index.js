@@ -58,6 +58,14 @@ const filteredWordreplacements = [
   },
 ];
 
+// https://github.com/nikolaischunk/discord-phishing-links#known-missing-domains
+const missingFromSource = [
+  'https://ord.gg/',
+  'http://ord.gg/',
+  'https://www.ord.gg/',
+  'http://www.ord.gg/',
+];
+
 async function listPhishingDomains() {
   let scamDomains = await stopPhishing.listDomains();
   let susDomains = await stopPhishing.listSuspicious();
@@ -65,6 +73,8 @@ async function listPhishingDomains() {
   const uniqueDomains = [...new Set([...scamDomains, ...susDomains])];
 
   const checkedDomains = findAndReplace(uniqueDomains);
+  checkedDomains.push(...missingFromSource);
+  checkedDomains.sort();
 
   let fmt = {
     private: true,
