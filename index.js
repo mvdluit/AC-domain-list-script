@@ -64,6 +64,8 @@ const missingFromSource = [
   'http://ord.gg/',
   'https://www.ord.gg/',
   'http://www.ord.gg/',
+  'https://cutt.us/nitro-subscribe',
+  'http://cutt.us/nitro-subscribe',
 ];
 
 async function listPhishingDomains() {
