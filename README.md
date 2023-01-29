@@ -12,7 +12,7 @@ Fetches the latest lists from https://github.com/nikolaischunk/discord-phishing-
 
 _moderator role or above is required to perform these actions_
 
-There is currently one lists: `scams` which contains both confirmed phishing domains and suspicious domains.
+There is currently one list: `scams` which contains both confirmed phishing domains and suspicious domains.
 
 **scam domains**
 
