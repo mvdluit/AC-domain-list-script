@@ -68,6 +68,7 @@ const missingFromSource = [
 	'http://cutt.us/nitro-subscribe',
 	'https://cutt.us/dlscord-nltro',
 	'http://cutt.us/dlscord-nltro',
+	'sourse2beta.com',
 ];
 
 async function listPhishingDomains() {
