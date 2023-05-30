@@ -64,10 +64,8 @@ const missingFromSource = [
 	'http://ord.gg/',
 	'https://www.ord.gg/',
 	'http://www.ord.gg/',
-	'https://cutt.us/nitro-subscribe',
-	'http://cutt.us/nitro-subscribe',
-	'https://cutt.us/dlscord-nltro',
-	'http://cutt.us/dlscord-nltro',
+	'https://cutt.us/',
+	'http://cutt.us/',
 	'sourse2beta.com',
 	'https://t.me/Fred01Ehrsam',
 ];
