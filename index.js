@@ -70,6 +70,7 @@ const missingFromSource = [
 	'http://cutt.us/dlscord-nltro',
 	'sourse2beta.com',
 	'https://t.me/Fred01Ehrsam',
+	'https://t.ly/',
 ];
 
 async function listPhishingDomains() {
