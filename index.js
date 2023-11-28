@@ -71,6 +71,7 @@ const missingFromSource = [
 	'sourse2beta.com',
 	'https://t.me/Fred01Ehrsam',
 	'https://t.ly/',
+	'https://ify.ac/',
 ];
 
 async function listPhishingDomains() {
